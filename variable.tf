@@ -49,7 +49,7 @@ variable "failover" {
 
 variable "multi_az_enabled" {
   type    = bool
-  default = false
+  default = true
 }
 
 variable "node_type" {
